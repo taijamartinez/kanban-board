@@ -16,7 +16,8 @@ const login = async (userInfo: UserLogin) => {
 
     // Throw error if response status is not OK (200-299)
     if (!response.ok) {
-      throw new Error('Invalid username or password'); // Throw a detailed error message    
+      const errorData = await response.json(); // Parse error response as JSON
+      throw new Error(`Error: ${errorData.message}`); // Throw a detailed error message    
     }
 
 

@@ -3,7 +3,6 @@ import jwt from 'jsonwebtoken';
 
 interface JwtPayload {
   username: string;
-  password: string; //added password to the payload
 }
 
 export const authenticateToken = (req: Request, res: Response, next: NextFunction) => {
