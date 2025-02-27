@@ -19,13 +19,13 @@ Securely access and manage your work tasks.
 Here are some previews of the Kanban Board:
 
 ### Home Page
-<img src="client/dist/assets/images/kanban-home.jpg" width="300">
+<img src="assets/images/kanban-home.jpg" width="300">
 
 ### Login Page
-<img src="client/dist/assets/images/kanban-login.jpg" width="300">
+<img src="assets/images/kanban-login.jpg" width="300">
 
 ### Kanban Board
-<img src="client/dist/assets/images/kanban1.jpg" width="300">
+<img src="assets/images/kanban1.jpg" width="300">
 
 ## Installation
 1. Go to https://kanban-board-bzob.onrender.com in your browser.
